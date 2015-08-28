@@ -1,2 +1,2 @@
-# gallimos-broadwell
-Broadwell config files for GalliumOS
+# galliumos-haswell
+Config files for haswell ChromeOS devices
