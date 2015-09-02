@@ -1,0 +1,16 @@
+Source: galliumos-broadwell
+Section: admin
+Priority: required
+Maintainer: Hugh Greenberg <hugh@galliumos.org>
+XSBC-Original-Maintainer: Hugh Greenberg <hugh@galliumos.org>
+Standards-Version: 3.9.1
+
+Package: galliumos-broadwell
+Provides: broadwell
+Architecture: any
+Essential: yes
+Priority: required
+Depends: xf86-input-cmt
+Multi-Arch: foreign
+Description: Gallium OS system files for Broadwell ChromeOS devices
+ This package contains Broadwell specific files for GalliumOS
