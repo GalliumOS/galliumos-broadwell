@@ -14,8 +14,10 @@ binary-arch: build
 	install -d debian/tmp/DEBIAN
 	install -d debian/tmp/etc/udev/rules.d
 	install -d debian/tmp/etc/modprobe.d
+	install -d debian/tmp/etc/skel
 	install -p -m 644 etc/udev/rules.d/* debian/tmp/etc/udev/rules.d
 	install -p -m 644 etc/modprobe.d/* debian/tmp/etc/modprobe.d
+	cp -r etc/skel debian/tmp/etc/skel
 	dpkg-gencontrol -pgalliumos-broadwell
 	dpkg-deb --build -Zgzip debian/tmp ..
 
