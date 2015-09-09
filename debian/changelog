@@ -1,3 +1,9 @@
+galliumos-broadwell (1.0.4) vivid-galliumos; urgency=medium
+
+  * Added systemd slices
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 8 Sep 2015 22:16:16 -0600
+
 galliumos-broadwell (1.0.2) vivid-galliumos; urgency=medium
 
   * Changes
