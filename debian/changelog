@@ -1,3 +1,15 @@
+galliumos-broadwell (1.0.6) vivid-galliumos; urgency=medium
+
+  * Changed systemd slice files
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 9 Sep 2015 22:16:16 -0600
+
+galliumos-broadwell (1.0.5) vivid-galliumos; urgency=medium
+
+  * Modified systemd slices and added machine.slice
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 9 Sep 2015 22:16:16 -0600
+
 galliumos-broadwell (1.0.4) vivid-galliumos; urgency=medium
 
   * Added systemd slices
