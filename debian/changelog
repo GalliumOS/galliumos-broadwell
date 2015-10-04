@@ -1,3 +1,33 @@
+galliumos-broadwell (1.0.11) vivid-galliumos; urgency=medium
+
+  * Removed slice files
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 23 Sep 2015 22:16:16 -0600
+
+galliumos-broadwell (1.0.10) vivid-galliumos; urgency=medium
+
+  * Removed udev powersave rules and added wifi sleep script
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 23 Sep 2015 22:16:16 -0600
+
+galliumos-broadwell (1.0.9) vivid-galliumos; urgency=medium
+
+  * Removed nicedaemon as a dep
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 23 Sep 2015 22:16:16 -0600
+
+galliumos-broadwell (1.0.8) vivid-galliumos; urgency=medium
+
+  * Changed systemd slice files
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 22 Sep 2015 22:16:16 -0600
+
+galliumos-broadwell (1.0.7) vivid-galliumos; urgency=medium
+
+  * Changed systemd slice files
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 9 Sep 2015 22:16:16 -0600
+
 galliumos-broadwell (1.0.6) vivid-galliumos; urgency=medium
 
   * Changed systemd slice files
