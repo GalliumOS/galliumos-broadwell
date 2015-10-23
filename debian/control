@@ -9,8 +9,7 @@ Package: galliumos-broadwell
 Provides: broadwell
 Architecture: any
 Priority: required
-Depends: galliumos-base, xf86-input-cmt, compton
+Depends: galliumos-base
 Replaces: galliumos-haswell
-Multi-Arch: foreign
 Description: Gallium OS system files for Broadwell ChromeOS devices
  This package contains Broadwell specific files for GalliumOS
