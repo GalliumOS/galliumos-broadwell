@@ -1,3 +1,9 @@
+galliumos-broadwell (1.0.18) vivid-galliumos; urgency=medium
+
+  * Changed provides
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 27 Oct 2015 22:16:16 -0600
+
 galliumos-broadwell (1.0.17) vivid-galliumos; urgency=medium
 
   * Modified debian/control to replace galliumos-device-c710
