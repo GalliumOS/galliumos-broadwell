@@ -10,6 +10,7 @@ Architecture: all
 Priority: required
 Depends: galliumos-base
 Provides: galliumos-device
-Replaces: galliumos-haswell, galliumos-device-c710
+Conflicts: galliumos-haswell, galliumos-sandy, galliumos-baytrail
+Replaces: galliumos-haswell, galliumos-sandy, galliumos-baytrail
 Description: Gallium OS system files for Broadwell ChromeOS devices
  This package contains Broadwell specific files for GalliumOS
