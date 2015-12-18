@@ -1,3 +1,10 @@
+galliumos-broadwell (1.0.21) vivid-galliumos; urgency=medium
+
+  * Improved wifi sleep script
+  * Set swcrypto as an iwlwifi option 
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 16 Dec 2015 22:16:16 -0600
+
 galliumos-broadwell (1.0.20) vivid-galliumos; urgency=medium
 
   * Conflict with other galliumos-device providers
