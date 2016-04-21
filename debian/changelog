@@ -1,3 +1,15 @@
+galliumos-broadwell (2.0) vivid-galliumos; urgency=medium
+
+  * Version change for xenon
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 20 Apr 2016 22:16:16 -0600
+
+galliumos-broadwell (1.0.22) vivid-galliumos; urgency=medium
+
+  * Improved wifi sleep script
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 20 Apr 2016 22:16:16 -0600
+
 galliumos-broadwell (1.0.21) vivid-galliumos; urgency=medium
 
   * Improved wifi sleep script
