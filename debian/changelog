@@ -1,4 +1,4 @@
-galliumos-broadwell (1.0.22) vivid-galliumos; urgency=medium
+galliumos-broadwell (1.0.23) vivid-galliumos; urgency=medium
 
   * Fixed an issue with wifi not returning after resuming from suspend
 
