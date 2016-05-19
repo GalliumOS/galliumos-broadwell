@@ -8,6 +8,7 @@ case $1/$2 in
             modprobe iwlwifi
             sleep 1
             systemctl restart NetworkManager
+            systemctl restart wpasupplicant
 	    sleep 2
 	    WIFI=`nmcli d | grep wifi`
 	    if [ -n "$WIFI" ]

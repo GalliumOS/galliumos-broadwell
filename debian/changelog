@@ -1,3 +1,9 @@
+galliumos-broadwell (2.0.3) vivid-galliumos; urgency=medium
+
+  * Change to wifi script on resume/suspend to restart wpasupplicant
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 18 May 2016 22:16:16 -0600
+
 galliumos-broadwell (2.0.2) vivid-galliumos; urgency=medium
 
   * Fix for wifi script on resume/suspend
