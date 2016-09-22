@@ -13,8 +13,10 @@ binary-arch: build
 	rm -rf debian/tmp
 	install -d debian/tmp/DEBIAN
 	install -d debian/tmp/etc/modprobe.d
-	install -d debian/tmp/lib/systemd/system-sleep
 	install -p -m 644 etc/modprobe.d/* debian/tmp/etc/modprobe.d
+	install -d debian/tmp/usr/share/X11/xorg.conf.d
+	install -p -m 644 usr/share/X11/xorg.conf.d/* debian/tmp/usr/share/X11/xorg.conf.d
+	install -d debian/tmp/lib/systemd/system-sleep
 	install -p -m 755 lib/systemd/system-sleep/* debian/tmp/lib/systemd/system-sleep
 	dpkg-gencontrol -pgalliumos-broadwell
 	dpkg-deb --build -Zgzip debian/tmp ..
