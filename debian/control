@@ -9,7 +9,7 @@ Architecture: all
 Priority: required
 Depends: galliumos-base, linux-image-galliumos-broadwell
 Provides: galliumos-device
-Conflicts: galliumos-sandyivy, galliumos-haswell, galliumos-baytrail, Xgalliumos-broadwell, galliumos-samus, galliumos-braswell, galliumos-skylake, galliumos-apollolake, galliumos-kabylake
+Conflicts: galliumos-sandyivy, galliumos-haswell, galliumos-baytrail, Xgalliumos-broadwell, galliumos-braswell, galliumos-skylake, galliumos-apollolake, galliumos-kabylake
 #Replaces: galliumos-haswell, galliumos-sandyivy, galliumos-baytrail
 Description: GalliumOS Broadwell customizations
  This package contains Broadwell-specific files for GalliumOS
